@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   client_bonus.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeonjeon <jeonjeon@student.42seoul.kr>     +#+  +:+       +#+        */
+/*   By: jeonjeon <jeonjeon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/02 17:32:10 by jeonjeon          #+#    #+#             */
-/*   Updated: 2022/07/08 18:56:54 by jeonjeon         ###   ########.fr       */
+/*   Updated: 2022/07/11 17:02:34 by jeonjeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static void	send_msg(char *str, pid_t pid, int len)
 void	check_receive(int signal)
 {
 	(void)signal;
-	write(1, "Signal received\n", 16);
+	write(1, "Signal received\n", 17);
 	exit(0);
 }
 

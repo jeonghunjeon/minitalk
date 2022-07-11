@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jeonjeon <jeonjeon@student.42seoul.kr>     +#+  +:+       +#+         #
+#    By: jeonjeon <jeonjeon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/08 17:13:59 by jeonjeon          #+#    #+#              #
-#    Updated: 2022/07/08 18:19:18 by jeonjeon         ###   ########.fr        #
+#    Updated: 2022/07/11 17:33:35 by jeonjeon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,14 +37,6 @@ OBJS_CLIENT_B	=	$(SRCS_CLIENT_B:.c=.o)
 
 OBJS_UTILS	=	$(SRCS_UTILS:.c=.o)
 OBJS_UTILS_B	=	$(SRCS_UTILS_B:.c=.o)
-
-ifdef WITH_BONUS
-	OBJS_SERVER = $(OBJS_SERVER_B), \
-	OBJS_CLIENT = $(OBJS_CLIENT_B), \
-	OBJS_UTILS = $(OBJS_UTILS_B)
-else
-	
-endif
 
 all:		$(SERVER) $(CLIENT)
 

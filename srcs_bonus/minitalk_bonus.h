@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   minitalk_bonus.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeonjeon <jeonjeon@student.42seoul.kr>     +#+  +:+       +#+        */
+/*   By: jeonjeon <jeonjeon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/02 17:32:55 by jeonjeon          #+#    #+#             */
-/*   Updated: 2022/07/07 16:29:59 by jeonjeon         ###   ########.fr       */
+/*   Updated: 2022/07/11 17:01:10 by jeonjeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
+#ifndef MINITALK_BONUS_H
+# define MINITALK_BONUS_H
 
 # include <signal.h>
 # include <unistd.h>
